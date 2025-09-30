@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Our Garden - Coming Soon. A fresh approach to sustainable living and community gardening.">
+  <meta name="theme-color" content="#4a9d5f">
+
+  <meta property="og:title" content="Our Garden - Coming Soon">
+  <meta property="og:description" content="A fresh approach to sustainable living and community gardening. Join us on our journey.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="/assets/logo.svg">
+
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+  <link rel="stylesheet" href="/styles/main.css">
+
+  <title>Our Garden - Coming Soon</title>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <a href="/index.html" class="brand">
+        <img src="/assets/logo.svg" alt="Our Garden Logo">
+        <span>Our Garden</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero">
+      <img src="/assets/logo.svg" alt="Our Garden" class="hero-logo">
+      <h1>We're Coming Soon</h1>
+      <p>We're building something special for sustainable living and community gardening. Be the first to know when we launch!</p>
+
+      <div class="social-links">
+        <a href="#" aria-label="Facebook">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/>
+          </svg>
+        </a>
+        <a href="#" aria-label="Twitter">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/>
+          </svg>
+        </a>
+        <a href="#" aria-label="Instagram">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z" fill="#0f1115"/>
+            <circle cx="17.5" cy="6.5" r="1.5" fill="#0f1115"/>
+          </svg>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer-signup">
+    <div class="container">
+      <form class="signup-form" novalidate>
+        <div class="form-group">
+          <label for="email" class="visually-hidden">Email Address</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+            required
+            aria-describedby="email-error"
+          >
+          <span id="email-error" class="error-message">Please enter a valid email address</span>
+        </div>
+        <button type="submit">Notify Me</button>
+      </form>
+    </div>
+  </footer>
+
+  <script src="/scripts/main.js"></script>
+</body>
+</html>
