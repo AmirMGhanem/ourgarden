@@ -1,55 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="he" dir="rtl">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Contact Our Garden - Get in touch with us about sustainable living and community gardening.">
+  <meta name="description" content="צור קשר עם Our Garden - דברו איתנו על חיים ברי־קיימא וקהילת גינון.">
   <meta name="theme-color" content="#4a9d5f">
 
-  <meta property="og:title" content="Contact Us - Our Garden">
-  <meta property="og:description" content="Get in touch with us about sustainable living and community gardening.">
+  <meta property="og:title" content="צור קשר - Our Garden">
+  <meta property="og:description" content="צרו קשר בנושא חיים ברי־קיימא וקהילת גינון.">
   <meta property="og:type" content="website">
   <meta property="og:image" content="/assets/logo.svg">
 
   <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
   <link rel="stylesheet" href="/styles/main.css">
 
-  <title>Contact Us - Our Garden</title>
+  <title>צור קשר - Our Garden</title>
 </head>
 <body>
   <nav class="navbar">
     <div class="container">
       <a href="/index.html" class="brand">
-        <img src="/assets/logo.svg" alt="Our Garden Logo">
-        <span>Our Garden</span>
+        <img src="/assets/logo.png" alt="הלוגו של Our Garden" style="width: 150px; height: 150px;">
       </a>
       <ul class="nav-links">
-        <li><a href="/index.html">Home</a></li>
-        <li><a href="/contact.html">Contact</a></li>
+        <li><a href="/index.html">דף הבית</a></li>
+        <li><a href="/contact.html">צור קשר</a></li>
       </ul>
     </div>
   </nav>
 
   <main>
     <section class="contact-section">
-      <h1>Contact Us</h1>
+      <h1>צור קשר</h1>
 
       <form class="contact-form" novalidate>
         <div class="form-group">
-          <label for="name">Name</label>
+          <label for="name">שם</label>
           <input
             type="text"
             id="name"
             name="name"
-            placeholder="Your name"
+            placeholder="השם שלך"
             required
             aria-describedby="name-error"
           >
-          <span id="name-error" class="error-message">Please enter your name</span>
+          <span id="name-error" class="error-message">נא להזין שם</span>
         </div>
 
         <div class="form-group">
-          <label for="contact-email">Email</label>
+          <label for="contact-email">אימייל</label>
           <input
             type="email"
             id="contact-email"
@@ -58,22 +57,22 @@
             required
             aria-describedby="contact-email-error"
           >
-          <span id="contact-email-error" class="error-message">Please enter a valid email address</span>
+          <span id="contact-email-error" class="error-message">נא להזין כתובת אימייל תקינה</span>
         </div>
 
         <div class="form-group">
-          <label for="message">Message</label>
+          <label for="message">הודעה</label>
           <textarea
             id="message"
             name="message"
-            placeholder="Tell us what you'd like to know..."
+            placeholder="ספרו לנו מה תרצו לדעת..."
             required
             aria-describedby="message-error"
           ></textarea>
-          <span id="message-error" class="error-message">Please enter a message</span>
+          <span id="message-error" class="error-message">נא להזין הודעה</span>
         </div>
 
-        <button type="submit">Send Message</button>
+        <button type="submit">שליחת הודעה</button>
       </form>
     </section>
   </main>
